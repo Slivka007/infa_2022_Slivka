@@ -27,15 +27,6 @@ pygame.draw.line(screen, (0, 0, 0),
                  [225, 108], 
                  [360, 50], 20)
 
-'''
-pygame.draw.line(screen, (0, 0, 0), 
-                 [100, 20], 
-                 [167, 146], 10)
-                 '''
-
-#pgd.circle(screen, (0, 255, 0), (200, 175), 50)
-#pgd.circle(screen, (255, 255, 255), (200, 175), 50, 5)
-
 pygame.init()
 pygame.display.update()
 clock = pygame.time.Clock()
